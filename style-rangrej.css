@@ -1,0 +1,31 @@
+﻿td{
+    border:5px solid black;
+    border-collapse:collapse;
+    margin:10px;
+}
+
+
+
+
+img {
+    border: 5px solid black;
+    width: 200px;
+   
+    margin: 20px;
+}
+
+body {
+    
+    box-sizing:border-box;
+    background-color: lightsalmon;
+    padding: 10px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-weight: 700;
+    text-shadow: inherit;
+    margin: 10px;
+}
