@@ -1,8 +1,17 @@
-﻿td{
-    border:5px solid black;
-    border-collapse:collapse;
-    margin:10px;
+﻿#container {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+    #container > div {
+        background-color: aqua;
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+        width: 300px;
+        border: 3px solid black;
+    }
+
 
 
 
@@ -15,8 +24,6 @@ img {
 }
 
 body {
-    
-    box-sizing:border-box;
     background-color: lightsalmon;
     padding: 10px;
     margin: 20px;
@@ -26,6 +33,6 @@ h1 {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-weight: 700;
-    text-shadow: inherit;
+    
     margin: 10px;
 }
